@@ -24,7 +24,7 @@ const Navbar = () => {
         ScrollTrigger.refresh();
 
         const ctx = gsap.context(() => {
-            const isHome = window.location.pathname === '/';
+            const isHome = window.location.pathname === '/personal-portfolio/';
 
             if (isHome) {
                 // Animate from large to small on scroll for Home

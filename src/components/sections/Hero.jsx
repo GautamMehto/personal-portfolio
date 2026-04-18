@@ -58,16 +58,16 @@ const Hero = () => {
                             clipPath: 'polygon(0% 100%, 50% 0%, 100% 0%, 50% 100%)'
                         }}
                     >
-                        <video src="src/assets/images/BackgroundVideo.mp4" className='w-full h-full object-cover object-center' autoPlay loop muted></video>
+                        <video src="./images/BackgroundVideo.mp4" className='w-full h-full object-cover object-center' autoPlay loop muted></video>
                     </div>) : (
                     <div
                         ref={imageRef}
-                        className="w-full  h-1/3 bg-cover bg-center"
+                        className="w-full h-1/3 bg-cover bg-center"
                         style={{
                             clipPath: 'polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%)'
                         }}
                     >
-                        <video src="src/assets/images/BackgroundVideo.mp4" className='w-full h-full object-cover object-center' autoPlay loop muted></video>
+                        <video src="./images/BackgroundVideo.mp4" className='w-full h-full object-cover object-center' autoPlay loop muted></video>
                     </div>)}
             </div>
 
