@@ -93,7 +93,7 @@ const About = () => {
                     <div className="relative w-[90%] sm:w-[80%] md:w-[500px] mx-auto mt-10 md:mt-0">
                         <img
                             ref={imageRef}
-                            src="/src/assets/images/Profile.png"
+                            src="./images/Profile.png"
                             alt="profile"
                             className="w-full h-full rounded-xl object-cover"
                         />

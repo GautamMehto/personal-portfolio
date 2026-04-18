@@ -88,7 +88,7 @@ function DiscoveryCarouselCard({ title, description, images, span }) {
     }, []);
 
     return (
-        <div ref={containerRef} className={`approach-card relative overflow-hidden  bg-[url('/src/assets/images/Background.png')] bg-top-left bg-no-repeat  ${span} border border-border-dark`}>
+        <div ref={containerRef} className={`approach-card relative overflow-hidden  bg-[url('./images/Background.png')] bg-top-left bg-no-repeat  ${span} border border-border-dark`}>
             <div className="w-full h-full bg-dark-bg/10 backdrop-blur-sm absolute inset-0" />
             <div className="w-full h-fit relative z-10 p-6 ">
                 <h3 className="text-2xl font-semibold mb-2">{title}</h3>
@@ -110,7 +110,7 @@ function DiscoveryCarouselCard({ title, description, images, span }) {
 function ResearchCard({ title, description, image, span }) {
 
     return (
-        <div className={`approach-card relative overflow-hidden  bg-[url('/src/assets/images/Background.png')] bg-top-left bg-no-repeat  ${span} border border-border-dark`}>
+        <div className={`approach-card relative overflow-hidden  bg-[url('./images/Background.png')] bg-top-left bg-no-repeat  ${span} border border-border-dark`}>
             <div className="w-full h-full bg-dark-bg/10 backdrop-blur-sm absolute inset-0" />
             <div className="relative z-10 p-6">
                 <h3 className="text-2xl font-semibold mb-2">{title}</h3>
@@ -139,7 +139,7 @@ function MobileFloatingCard({ title, description, images, span }) {
     }, []);
 
     return (
-        <div className={`approach-card relative overflow-hidden  bg-[url('/src/assets/images/Background.png')] bg-top-right bg-no-repeat  ${span} border border-border-dark`}>
+        <div className={`approach-card relative overflow-hidden  bg-[url('./images/Background.png')] bg-top-right bg-no-repeat  ${span} border border-border-dark`}>
             <div className="w-full h-full bg-dark-bg/10 backdrop-blur-sm absolute inset-0" />
             <div className="relative z-10 p-6">
                 <h3 className="text-2xl font-semibold mb-2">{title}</h3>
@@ -170,7 +170,7 @@ function FigmaCursorCard({ title, description, image, span }) {
     }, []);
 
     return (
-        <div className={`approach-card relative overflow-hidden  bg-[url('/src/assets/images/Background.png')] bg-bottom-left bg-no-repeat ${span} border border-border-dark`}>
+        <div className={`approach-card relative overflow-hidden  bg-[url('./images/Background.png')] bg-bottom-left bg-no-repeat ${span} border border-border-dark`}>
             <div className="w-full h-full bg-dark-bg/10 backdrop-blur-sm absolute inset-0" />
             <div className="relative z-10 p-6">
                 <h3 className="text-2xl font-semibold mb-2">{title}</h3>
@@ -196,7 +196,7 @@ function Cursor({ name }) {
 
 function FutureClockCard({ title, description, span }) {
     return (
-        <div className={`approach-card relative overflow-hidden  bg-[url('/src/assets/images/Background.png')] bg-bottom-right bg-no-repeat ${span} border border-border-dark`}>
+        <div className={`approach-card relative overflow-hidden  bg-[url('./images/Background.png')] bg-bottom-right bg-no-repeat ${span} border border-border-dark`}>
             <div className="w-full h-full bg-dark-bg/10 backdrop-blur-sm absolute inset-0" />
             <div className="relative z-10 p-6">
                 <h3 className="text-2xl font-semibold mb-2">{title}</h3>

@@ -506,10 +506,10 @@ export const ApproachData = [
         description: "I begin by <strong>defining clear goals </strong>, understanding your audience, and aligning with your brand voice to set a strong foundation.",
         type: "scroll-carousel",
         images: [
-            "src/assets/images/iDevliveBlogPage.png",
-            "src/assets/images/quickaccountingservices.com.png",
-            "/src/assets/images/callForwading.png",
-            "/src/assets/images/jd&co.png",
+            "./images/iDevliveBlogPage.png",
+            "./images/quickaccountingservices.com.png",
+            "./images/callForwading.png",
+            "./images/jd&co.png",
         ],
         span: "col-span-1 md:col-span-3",
     },
@@ -517,7 +517,7 @@ export const ApproachData = [
         title: "Research",
         description: "Based on our discovery insights, we conduct thorough market and competitor analysis, exploring strengths and weaknesses we can take advantage of. This research informs our tailored design strategy for your project. ",
         type: "research",
-        image: "src/assets/images/research.png",
+        image: "./images/research.png",
         span: "col-span-1 md:col-span-2",
     },
     {
@@ -525,8 +525,8 @@ export const ApproachData = [
         description: "Every layout is designed for <strong>seamless mobile-first experiences </strong>, ensuring performance across all devices.",
         type: "floating-mobiles",
         images: [
-            "src/assets/images/smallDevice1.png",
-            "src/assets/images/smallDevice2.png",
+            "./images/smallDevice1.png",
+            "./images/smallDevice2.png",
         ],
         span: "col-span-1 md:col-span-2",
     },
@@ -534,7 +534,7 @@ export const ApproachData = [
         title: "Pixel-Perfect Development",
         description: "Designed and developed with <strong> pixel-perfect precision </strong>, delivering high performance and easy updates.",
         type: "figma-cursors",
-        image: "src/assets/images/laptopDevice.png",
+        image: "./images/laptopDevice.png",
         span: "col-span-1 md:col-span-3",
     },
     {
