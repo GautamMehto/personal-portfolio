@@ -1,4 +1,4 @@
-import{j as r}from"./index-8fHcTbpv.js";function l({label:a,icon:e,path:n,className:t,download:s,external:i}){return r.jsxs("a",{href:n,...s&&{download:!0},...i&&{target:"_blank",rel:"noopener noreferrer"},className:`
+import{j as r}from"./index-BVzysSaD.js";function l({label:a,icon:e,path:n,className:t,download:s,external:i}){return r.jsxs("a",{href:n,...s&&{download:!0},...i&&{target:"_blank",rel:"noopener noreferrer"},className:`
         group relative flex items-center justify-center gap-5
         px-7 py-3 text-base
         rounded-full
