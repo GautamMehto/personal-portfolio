@@ -13,4 +13,5 @@ export default defineConfig({
       '.ngrok-free.app',
     ],
   },
+  base: '/personal-portfolio/',
 })
