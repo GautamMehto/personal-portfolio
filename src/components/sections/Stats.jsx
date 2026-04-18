@@ -61,7 +61,7 @@ const Stats = () => {
                         <div className={`flex flex-col items-center md:items-start text-center md:text-left bg-dark-bg border-brand backdrop-blur-sm p-8 rounded-2xl shadow-2xl translate-y-0 ${i >= 0 ? 'border-l-4' : ''}`} style={{
                             transform: window.innerWidth >= 768 ? `translateY(${3 * i}rem)` : "none",
                         }}>
-                            <span className="text-5xl font-bold mb-2 text-brand" style={{}}>{stat.value}</span>
+                            <span className="text-5xl font-bold mb-2 text-brand" style={{}}>{stat.value ? stat.value : (new Date().getFullYear() - 2024) + "+"}</span>
                             <h3 className="text-xl uppercase font-medium mb-2">{stat.label}</h3>
                             <p className="text-md text-text-secondary">{stat.description}</p>
                         </div>

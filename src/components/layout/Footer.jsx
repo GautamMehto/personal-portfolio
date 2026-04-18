@@ -12,6 +12,7 @@ import { BsArrowRight } from "react-icons/bs";
 import { navItems } from "../../data";
 import emailjs from '@emailjs/browser';
 import toast from 'react-hot-toast';
+import { Link } from "react-router-dom";
 gsap.registerPlugin(ScrollTrigger);
 
 export default function Footer() {
@@ -233,7 +234,8 @@ export default function Footer() {
                 </div>
                 <div className="w-full flex items-center justify-between border-t border-border-dark pt-6 pb-3">
                     <p className="text-text-primary">
-                        © {new Date().getFullYear()} Gautam Mehto
+                        © {new Date().getFullYear()} Gautam Mehto. All Rights Reserved.
+                        <Link to="https://gautammehto.github.io/dev.portfolio/" target="_blank" className="underline ml-2 text-text-secondary hover:text-text-primary transition-colors duration-300">Old Portfolio</Link>
                     </p>
                     <p className="text-text-primary flex items-center gap-1">
                         Built with <IoIosHeart className="text-text-primary" /> & React
