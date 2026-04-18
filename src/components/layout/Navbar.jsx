@@ -181,7 +181,7 @@ const Navbar = () => {
                 {/* Floating Animated Brand Text */}
                 <a
                     ref={brandRef}
-                    href="/"
+                    href="/personal-portfolio"
                     className="inline-block text-text-primary! absolute z-50 tracking-tight pointer-events-auto font-bold uppercase items-end gap-2"
                     style={{ fontFamily: 'var(--font-helvetica)', lineHeight: 1 }}
                 >
