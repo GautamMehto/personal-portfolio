@@ -3,10 +3,10 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { ApproachData } from "../../data";
 import { BsFillCursorFill } from "react-icons/bs";
-import dialImg from "../../assets/images/Clock Dial.png";
-import hourImg from "../../assets/images/Hour Hand.png";
-import minuteImg from "../../assets/images/Minute Hand.png";
-import secondImg from "../../assets/images/Second Hand.png";
+import dialImg from "/images/Clock Dial.png";
+import hourImg from "/images/Hour Hand.png";
+import minuteImg from "/images/Minute Hand.png";
+import secondImg from "/images/Second Hand.png";
 import LiveClock from "./LiveClock";
 
 gsap.registerPlugin(ScrollTrigger);

@@ -35,7 +35,7 @@ export const ThemeProvider = ({ children }) => {
     };
 
     // Determine the hand image based on the theme
-    const currentImage = isDark ? '.../images/MyHand.png' : '.../images/WhiteHand.png';
+    const currentImage = isDark ? './images/MyHand.png' : './images/WhiteHand.png';
 
     return (
         <ThemeContext.Provider value={{ isDark, toggleTheme, currentImage }}>
