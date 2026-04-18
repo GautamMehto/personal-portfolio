@@ -1,4 +1,4 @@
-import{j as r}from"./index-BVzysSaD.js";function p({label:e,icon:n,path:a,className:t,download:i,external:o}){return r.jsxs("a",{href:a,...i&&{download:!0},...o&&{target:"_blank",rel:"noopener noreferrer"},className:` inline-block
+import{j as r}from"./index-t77UBKNl.js";function p({label:e,icon:n,path:a,className:t,download:i,external:o}){return r.jsxs("a",{href:a,...i&&{download:!0},...o&&{target:"_blank",rel:"noopener noreferrer"},className:` inline-block
         group w-fit relative overflow-hidden
         rounded-full border px-8 py-3
         tracking-wide
