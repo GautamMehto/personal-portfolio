@@ -34,10 +34,10 @@ import { DiMaterializecss } from "react-icons/di";
 
 // navItems.js
 export const navItems = [
-    { name: "Home", link: "/personal-portfolio/" },
-    { name: "About", link: "/personal-portfolio/about" },
-    { name: "Works", link: "/personal-portfolio/works" },
-    { name: "Contact", link: "/personal-portfolio/contact" },
+    { name: "Home", link: "/" },
+    { name: "About", link: "/about" },
+    { name: "Works", link: "/works" },
+    { name: "Contact", link: "/contact" },
 ];
 
 // AboutMe.js

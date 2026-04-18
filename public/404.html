@@ -1,16 +1,19 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html>
 
 <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
     <title>Gautam Mehto</title>
+    <script>
+        // Save the full intended URL to sessionStorage
+        // then redirect to the base path so index.html loads
+        sessionStorage.redirect = location.href;
+        window.location.replace(
+            "https://GautamMehto.github.io/personal-portfolio/"
+        );
+    </script>
 </head>
 
-<body>
-    <div id="root"></div>
-    <script type="module" src="/personal-portfolio/src/main.jsx"></script>
-</body>
+<body></body>
 
 </html>

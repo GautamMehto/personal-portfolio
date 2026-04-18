@@ -3,6 +3,17 @@
 
 <head>
   <meta charset="UTF-8" />
+  <!-- ✅ ADD THIS SCRIPT BLOCK — paste it right here at the top of <head> -->
+  <script>
+    (function () {
+      var redirect = sessionStorage.redirect;
+      delete sessionStorage.redirect;
+      if (redirect && redirect !== location.href) {
+        history.replaceState(null, null, redirect);
+      }
+    })();
+  </script>
+  <!-- ✅ END OF ADDED SCRIPT -->
   <link rel="icon" type="image/svg+xml" href="/vite.svg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Gautam Mehto</title>
