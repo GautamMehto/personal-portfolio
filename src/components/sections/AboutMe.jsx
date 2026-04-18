@@ -109,7 +109,7 @@ const AboutMeSection = () => {
                             <AnimatedButton
                                 label="More About Me"
                                 icon={ArrowRight}
-                                path={"/about"}
+                                path={"/personal-portfolio/about"}
                             />
                         </div>
                         <div className="animate-up">

@@ -78,7 +78,7 @@ export default function Footer() {
             gsap.fromTo(
                 brandStripRef.current,
                 {
-                    height: "0vh",
+                    height: "5vh",
                     pin: true,
                 },
                 {
@@ -218,7 +218,7 @@ export default function Footer() {
             {/* ================= BRAND STRIP SECTION ================= */}
             <section
                 ref={brandStripRef}
-                className="w-full bg-brand text-dark-bg flex flex-col md:flex-row flex-wrap items-center md:items-base justify-between px-6 md:px-20 pb-6 overflow-hidden"
+                className="w-full bg-brand text-dark-bg flex flex-col md:flex-row flex-wrap items-center md:items-base justify-between px-6 md:px-20 overflow-hidden"
             >
                 <h1 className="text-[17vw] font-bold leading-none" style={{ fontFamily: 'var(--font-helvetica)' }}>
                     GAUTAM<sup className="text-[0.2em] ml-2">®</sup>

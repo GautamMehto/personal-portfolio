@@ -5,6 +5,7 @@ import { ArrowRight, ArrowUpRight } from "lucide-react";
 import HoverButton from "../common/HoverButton";
 import { TechIcons, WorksData } from "../../data";
 import AnimatedButton from "../common/AnimatedButton";
+import { Link } from "react-router-dom";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -154,9 +155,9 @@ const SelectedWorks = () => {
                         <div className="relative w-[90%] h-[75%] rounded-2xl overflow-hidden">
 
                             {featuredWorks.map((work, index) => (
-                                <a
+                                <Link
                                     key={work.id}
-                                    href={`/work/${work.title}`}
+                                    to={`/work/${work.title}`}
                                     className="absolute inset-0 transition-all duration-700"
                                     style={{
                                         opacity: activeIndex === index ? 1 : 0,
@@ -174,7 +175,7 @@ const SelectedWorks = () => {
                                         className="w-full h-full object-cover object-top hover:scale-105 transition-all duration-700"
                                         alt={work.title}
                                     />
-                                </a>
+                                </Link>
                             ))}
                         </div>
                     </div>

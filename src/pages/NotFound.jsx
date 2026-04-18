@@ -15,7 +15,7 @@ const NotFound = () => {
                 <AnimatedButton
                     label="Back To Home"
                     icon={ArrowRight}
-                    path={"/"}
+                    path={"/personal-portfolio/"}
                 />
             </div>
         </div>
