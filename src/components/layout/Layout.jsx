@@ -4,7 +4,7 @@ import Footer from './Footer'
 import { Outlet, useLocation } from 'react-router-dom'
 import { Toaster } from 'react-hot-toast'
 import BugReportModal from '../common/BugReportModel'
-
+import DesktopExperienceModal from '../common/DesktopExperienceModal'
 
 const Layout = () => {
     return (
@@ -12,6 +12,7 @@ const Layout = () => {
             <Navbar />
             <Toaster />
             <ScrollToTop />
+            <DesktopExperienceModal />
             <BugReportModal />
             <Outlet />
             <Footer />
