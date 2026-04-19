@@ -3,7 +3,6 @@ import { gsap } from "gsap";
 import { WorkCard } from "./WorkCard";
 import { WorksData } from "../../data";
 import { BsFillGridFill, BsList } from "react-icons/bs";
-// import FlowingMenu from "./FlowingMenu";
 
 const FlowingMenu = lazy(() => import("./FlowingMenu"));
 

@@ -98,7 +98,7 @@ const Hero = () => {
                         <AnimatedButton
                             label="START A PROJECT"
                             icon={ArrowRight}
-                            path="/contact"
+                            path={`/personal-portfolio/contact`}
                             className="mt-4"
                         />
                     </div>

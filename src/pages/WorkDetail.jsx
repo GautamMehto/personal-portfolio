@@ -1,5 +1,5 @@
 import React, { useEffect, useMemo, useRef } from "react";
-import { useParams, useNavigate } from "react-router-dom";
+import { useParams, useNavigate, Link } from "react-router-dom";
 import { TechIcons, WorksData } from "../data";
 import AnimatedButton from "../components/common/AnimatedButton";
 import { BsArrowLeft, BsGithub, BsEye } from "react-icons/bs";
@@ -97,10 +97,10 @@ const WorkDetails = () => {
             <div className="w-full h-screen flex flex-col items-center justify-center text-text-primary bg-dark-bg">
                 <h2 className="project-title font-helvetica font-black text-5xl md:text-9xl capitalize mb-8">Project not found</h2>
                 <div className="group flex justify-between items-center mb-10 text-text-primary">
-                    <button onClick={() => navigate(-1)} className="group group-hover:text-brand transition-colors duration-300 flex items-center gap-3 cursor-pointer">
+                    <Link to={`/works`} className="group group-hover:text-brand transition-colors duration-300 flex items-center gap-3 cursor-pointer">
                         <BsArrowLeft className="text-xl " />
                         <span className="text-sm font-bold tracking-tighter uppercase">BACK TO WORKS</span>
-                    </button>
+                    </Link>
                 </div>
             </div>
         );
@@ -111,10 +111,10 @@ const WorkDetails = () => {
 
             {/* TopAppBar */}
             <div className="group flex justify-between items-center mb-10 text-text-primary">
-                <button onClick={() => navigate(-1)} className="group group-hover:text-brand transition-colors duration-300 flex items-center gap-3 cursor-pointer">
+                <Link to={`/works`} className="group group-hover:text-brand transition-colors duration-300 flex items-center gap-3 cursor-pointer">
                     <BsArrowLeft className="text-xl " />
                     <span className="text-sm font-bold tracking-tighter uppercase">BACK TO WORKS</span>
-                </button>
+                </Link>
             </div>
 
             <main className="pb-10 md:pb-20  md:max-w-[1440px] mx-auto">

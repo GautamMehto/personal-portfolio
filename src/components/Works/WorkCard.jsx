@@ -6,6 +6,7 @@ import MarqueeButton from "../common/MarqueeButton";
 
 export function WorkCard({ work }) {
   const cardRef = useRef(null);
+  const titleRef = useRef(null);
   const imageRef = useRef(null);
   const overlayRef = useRef(null);
   const marqueeInnerRef = useRef(null);
@@ -26,7 +27,16 @@ export function WorkCard({ work }) {
       .to(
         imageRef.current,
         {
-          scale: 1.06,
+          scale: 1.2,
+          duration: 0.35,
+          ease: "power3.out",
+        },
+        0,
+      )
+      .to(
+        titleRef.current,
+        {
+          color: "var(--color-brand)",
           duration: 0.35,
           ease: "power3.out",
         },
@@ -72,7 +82,7 @@ export function WorkCard({ work }) {
     <div
       onMouseEnter={handleEnter}
       onMouseLeave={handleLeave}
-      className="work-card block p-3 rounded-2xl border border-text-secondary/30 hover:border-brand/50 transition-colors duration-300"
+      className="work-card block p-3 rounded-2xl border border-text-secondary/30 hover:border-brand transition-colors duration-300"
     >
       <div
         ref={cardRef}
@@ -108,7 +118,7 @@ export function WorkCard({ work }) {
         {/* Content */}
         <div className="p-4 flex flex-col gap-3 justify-between items-start">
           <div className="w-full flex justify-between items-baseline gap-3">
-            <h3 className="text-2xl md:text-4xl font-semibold line-clamp-1">
+            <h3 ref={titleRef} className="text-2xl md:text-4xl font-semibold line-clamp-1">
               {work.title}
             </h3>
             <p className="text-sm md:text-base w-fit capitalize text-text-secondary">
@@ -122,7 +132,7 @@ export function WorkCard({ work }) {
           <MarqueeButton
             label="View Project"
             icon={BsArrowRight}
-            path={`/work/${work.title}`}
+            path={`/personal-portfolio/work/${work.title}`}
             className="text-sm! rounded-xl!"
           />
         </div>
