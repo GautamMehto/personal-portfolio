@@ -1,4 +1,4 @@
-import{j as e,L as f}from"./index-B-kwAGmW.js";function u({label:a,icon:r,path:o,className:l,onClick:t,type:i="button",disabled:d}){const n=`
+import{j as e,L as f}from"./index-Bi0nBgnU.js";function u({label:a,icon:r,path:o,className:l,onClick:t,type:i="button",disabled:d}){const n=`
     group relative isolate flex items-center justify-center gap-2 w-fit px-6 py-3
     font-semibold
     rounded-full border border-brand
