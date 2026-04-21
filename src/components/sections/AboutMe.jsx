@@ -116,7 +116,7 @@ const AboutMeSection = () => {
                             <MarqueeButton
                                 label="Download CV"
                                 icon={Download}
-                                path={"/Gautam-Mehto-React-Resume.pdf"}
+                                path={"/personal-portfolio/Gautam-Mehto-Resume.pdf"}
                                 download
                                 external
                             />
